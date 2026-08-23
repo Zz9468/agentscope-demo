@@ -10,6 +10,8 @@ import java.nio.file.Paths;
 
 /**
  * 第一课：创建 HarnessAgent，并用相同会话完成两轮对话。
+ *
+ * <p>配套讲义：docs/lessons/lesson-01-first-agent.md
  */
 public class FirstAgentLesson {
 
@@ -19,7 +21,7 @@ public class FirstAgentLesson {
         HarnessAgent agent = HarnessAgent.builder()
                 .name("learning-assistant")
                 .sysPrompt("你是一位耐心的 AgentScope Java 学习助手，请用简洁的中文回答。")
-                .model("dashscope:qwen-plus")
+                .model("dashscope:qwen-max")
                 .workspace(Paths.get(".agentscope/workspace"))
                 .compaction(CompactionConfig.builder()
                         .triggerMessages(30)
