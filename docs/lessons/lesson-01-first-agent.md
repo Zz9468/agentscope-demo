@@ -731,4 +731,4 @@ Spring Boot 会引入 Bean、配置绑定、Web Server 和生命周期等额外�
 - [Project Reactor：Threading and Schedulers](https://projectreactor.io/docs/core/release/reference/coreFeatures/schedulers.html)
 - [Spring WebFlux Controller 返回值](https://docs.spring.io/spring-framework/reference/web/webflux/controller/ann-methods/return-types.html)
 
-下一课会把 `call(...)` 换成 `streamEvents(...)`，实时观察文本增量、工具调用开始和最终结果等类型化事件。届时会解释“最终消息”和“执行事件流”为什么是两种不同的结果交付方式。
+[第二课](lesson-02-stream-events.md)会把 `call(...)` 换成 `streamEvents(...)`，实时观察文本增量、工具调用开始和最终结果等类型化事件。届时会解释“最终消息”和“执行事件流”为什么是两种不同的结果交付方式。
