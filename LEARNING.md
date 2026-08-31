@@ -35,7 +35,7 @@
 | --- | --- | --- | --- | --- |
 | 第 1 课 | 第一个 `HarnessAgent`、消息、会话和工作区 | [`FirstAgentLesson.java`](src/main/java/com/example/agentscopedemo/lesson01/FirstAgentLesson.java) | [第一课详细讲义](docs/lessons/lesson-01-first-agent.md) | 已完成 |
 | 第 2 课 | 使用 `streamEvents` 观察流式文本与事件 | [`StreamingEventsLesson.java`](src/main/java/com/example/agentscopedemo/lesson02/StreamingEventsLesson.java) | [第二课详细讲义](docs/lessons/lesson-02-stream-events.md) | 已完成 |
-| 第 3 课 | 使用 `ReActAgent` 和 `@Tool` 编写工具 | 待编写 | 待编写 | 未开始 |
+| 第 3 课 | 使用 `ReActAgent` 和 `@Tool` 编写工具 | [`ToolCallingLesson.java`](src/main/java/com/example/agentscopedemo/lesson03/ToolCallingLesson.java) | [第三课详细讲义](docs/lessons/lesson-03-react-tool.md) | 已完成 |
 | 第 4 课 | 将 Agent 封装成 Spring Boot REST API | 待编写 | 待编写 | 未开始 |
 | 第 5 课 | 多用户、多会话与状态隔离 | 待编写 | 待编写 | 未开始 |
 | 第 6 课 | Workspace、`AGENTS.md`、Memory 和上下文压缩 | 待编写 | 待编写 | 未开始 |

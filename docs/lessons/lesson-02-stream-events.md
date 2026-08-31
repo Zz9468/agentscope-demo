@@ -785,4 +785,4 @@ agent.streamEvents(message, context)
 - [Project Reactor：Flux，异步的 0..N 序列](https://projectreactor.io/docs/core/release/reference/coreFeatures/flux.html)
 - [Project Reactor：订阅与背压](https://projectreactor.io/docs/core/release/reference/reactiveProgramming.html)
 
-下一课将注册第一个自定义 `@Tool`。我们会观察模型如何生成 ToolCall，AgentScope 如何执行 Java 方法并产生 ToolResult，以及为什么工具描述和参数 Schema 会直接影响模型是否正确调用工具。
+[第三课](lesson-03-react-tool.md)将注册第一个自定义 `@Tool`。我们会观察模型如何生成 ToolCall，AgentScope 如何执行 Java 方法并产生 ToolResult，以及为什么工具描述和参数 Schema 会直接影响模型是否正确调用工具。
